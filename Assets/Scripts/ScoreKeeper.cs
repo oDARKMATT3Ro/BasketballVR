@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour {
 
-    private int score = 0;
+    public int score = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +17,17 @@ public class ScoreKeeper : MonoBehaviour {
 	}
 
     public void IncrementScore(int amount) {
+
         score += amount;
         Debug.Log("Your scored a goal. Your current score is: " + score + ".");
+
     }
+
+    public void ResetScore() {
+
+        score = 0;
+        Debug.Log("The score has been reset. Your current score is: " + score + ".");
+
+    }
+
 }

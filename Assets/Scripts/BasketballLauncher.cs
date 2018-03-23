@@ -15,7 +15,7 @@ public class BasketballLauncher : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0)) {
             GameObject instance = Instantiate(basketballPrefab);
             instance.transform.position = this.transform.position;
             Rigidbody rb = instance.GetComponent<Rigidbody>();
