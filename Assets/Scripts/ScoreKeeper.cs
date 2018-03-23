@@ -8,16 +8,16 @@ public class ScoreKeeper : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
 
-    private void OnCollisionEnter(Collision collision) {
-        score++;
+    public void IncrementScore(int amount) {
+        score += amount;
         Debug.Log("Your scored a goal. Your current score is: " + score + ".");
     }
 }

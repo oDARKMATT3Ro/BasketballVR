@@ -34,3 +34,4 @@ Email. info@imagitechstudios.com
 * BBVR10 Corrected Ball Throwing Location To Player Rig
 * BBVR11 Connected Ball Throwing Location And Player Camera
 * BBVR12 Added Prototype Target With Script For Score Keeping
+* BBVR13 Made Target Value Adjustable, Made Target Prefab, And Globalized Scoring
