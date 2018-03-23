@@ -35,3 +35,4 @@ Email. info@imagitechstudios.com
 * BBVR11 Connected Ball Throwing Location And Player Camera
 * BBVR12 Added Prototype Target With Script For Score Keeping
 * BBVR13 Made Target Value Adjustable, Made Target Prefab, And Globalized Scoring
+* BBVR14 Added Ability To Throw Ball On Mouse Left Click
