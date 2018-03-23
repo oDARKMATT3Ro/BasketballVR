@@ -38,3 +38,4 @@ Email. info@imagitechstudios.com
 * BBVR14 Added Ability To Throw Ball On Mouse Left Click
 * BBVR15 Created Menu Scene That Loads Game With Space Bar
 * BBVR16 Created Game Over Screen And Added Reset Score And Game Over Debug Buttons To Game
+* BBVR17 Added UI Game Titles And Instructions To Menu And Game Over Sceens

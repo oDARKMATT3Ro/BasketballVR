@@ -17,12 +17,22 @@ public class LevelManager : MonoBehaviour {
             NextScene();
         }
 
+        if (Input.GetKeyDown(KeyCode.Return)) {
+            ResetScene();
+        }
+
 	}
 
     public void NextScene() {
 
         int currentIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentIndex + 1);
+
+    }
+
+    public void ResetScene() {
+
+        SceneManager.LoadScene("00_Menu");
 
     }
 
