@@ -15,13 +15,12 @@ public class BasketballLauncher : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        float speed = 5.0f;
-
         if (Input.GetKeyDown(KeyCode.Space)) {
             GameObject instance = Instantiate(basketballPrefab);
             instance.transform.position = this.transform.position;
             Rigidbody rb = instance.GetComponent<Rigidbody>();
-            rb.velocity = Vector3.forward * ballSpeed;
+            Camera camera = GetComponentInChildren<Camera>();
+            rb.velocity = camera.transform.rotation * Vector3.forward * ballSpeed;
         }
     }
 }

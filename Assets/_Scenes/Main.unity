@@ -359,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   basketballPrefab: {fileID: 1218389255491234, guid: 0159d9af2c5ed404f8640b40916a7ef5,
     type: 2}
-  ballSpeed: 15
+  ballSpeed: 20
 --- !u!1 &1802590107
 GameObject:
   m_ObjectHideFlags: 0

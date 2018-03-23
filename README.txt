@@ -32,3 +32,4 @@ Email. info@imagitechstudios.com
 * BBVR08 Created A Player Rig
 * BBVR09 Fixed Player Camera Rotation
 * BBVR10 Corrected Ball Throwing Location To Player Rig
+* BBVR11 Connected Ball Throwing Location And Player Camera
