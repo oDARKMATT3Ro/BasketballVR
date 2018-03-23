@@ -39,3 +39,4 @@ Email. info@imagitechstudios.com
 * BBVR15 Created Menu Scene That Loads Game With Space Bar
 * BBVR16 Created Game Over Screen And Added Reset Score And Game Over Debug Buttons To Game
 * BBVR17 Added UI Game Titles And Instructions To Menu And Game Over Sceens
+* BBVR18 Changed Menu and Game Over Instructions Into Buttons

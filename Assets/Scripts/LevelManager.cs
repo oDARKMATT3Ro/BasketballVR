@@ -36,4 +36,16 @@ public class LevelManager : MonoBehaviour {
 
     }
 
+    public void QuitGame() {
+
+        // Quit the application inside Unity Editor
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+
+        // Quit the application
+        Application.Quit();
+
+    }
+
 }
