@@ -313,6 +313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1289177754}
   - component: {fileID: 1289177755}
+  - component: {fileID: 1289177756}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -345,6 +346,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51464911d5f1edf4698cb8e5ff7d2ba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1289177756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1289177753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2904ed46cec662a428a0814963ef8b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketballPrefab: {fileID: 1218389255491234, guid: 0159d9af2c5ed404f8640b40916a7ef5,
+    type: 2}
+  ballSpeed: 15
 --- !u!1 &1802590107
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +371,6 @@ GameObject:
   - component: {fileID: 1802590110}
   - component: {fileID: 1802590109}
   - component: {fileID: 1802590108}
-  - component: {fileID: 1802590112}
   m_Layer: 0
   m_Name: Player Camera
   m_TagString: MainCamera
@@ -427,16 +441,3 @@ Transform:
   m_Father: {fileID: 1289177754}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1802590112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802590107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d253516ab2dda341ba7428cb8cb21e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  basketballPrefab: {fileID: 1218389255491234, guid: 0159d9af2c5ed404f8640b40916a7ef5,
-    type: 2}

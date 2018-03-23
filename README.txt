@@ -31,3 +31,4 @@ Email. info@imagitechstudios.com
 * BBVR07 Camera Rotates With Mouse Input
 * BBVR08 Created A Player Rig
 * BBVR09 Fixed Player Camera Rotation
+* BBVR10 Corrected Ball Throwing Location To Player Rig
