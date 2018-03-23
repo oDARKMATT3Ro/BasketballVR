@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 1802590109}
   - component: {fileID: 1802590108}
   - component: {fileID: 1802590112}
+  - component: {fileID: 1802590113}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -399,3 +400,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   basketballPrefab: {fileID: 1218389255491234, guid: 0159d9af2c5ed404f8640b40916a7ef5,
     type: 2}
+--- !u!114 &1802590113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802590107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51464911d5f1edf4698cb8e5ff7d2ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

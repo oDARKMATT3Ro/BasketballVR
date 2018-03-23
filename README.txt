@@ -27,3 +27,4 @@ Email. info@imagitechstudios.com
 * BBVR03 Created Basketball Prefab With Material
 * BBVR04 Added Ability To Create Basketballs With Space Bar
 * BBVR05 Create Basketballs With Velocity In Direction Of Arrow Press
+* BBVR06 Added Script For Camera Rotation
