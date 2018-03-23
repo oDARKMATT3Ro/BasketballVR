@@ -30,3 +30,4 @@ Email. info@imagitechstudios.com
 * BBVR06 Added Script For Camera Rotation
 * BBVR07 Camera Rotates With Mouse Input
 * BBVR08 Created A Player Rig
+* BBVR09 Fixed Player Camera Rotation
