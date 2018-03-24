@@ -5,23 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
+    // Public variables
+    public float maxTime = 60.0f;
+
+    // Private variables
+    private float levelTimer = 0.0f;
+
 	// Use this for initialization
 	void Start () {
 
-	}
+        /// Sets the level timer to the max time
+        levelTimer = maxTime;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            NextScene();
-        }
+            if (levelTimer > 0) {
 
-        if (Input.GetKeyDown(KeyCode.Return)) {
-            ResetScene();
-        }
+                levelTimer -= Time.deltaTime;
+                Debug.Log(levelTimer);
 
-	}
+                if (levelTimer < 0) {
+                    NextScene();
+                }
+
+            }
+
+        }
 
     public void NextScene() {
 

@@ -40,3 +40,4 @@ Email. info@imagitechstudios.com
 * BBVR16 Created Game Over Screen And Added Reset Score And Game Over Debug Buttons To Game
 * BBVR17 Added UI Game Titles And Instructions To Menu And Game Over Sceens
 * BBVR18 Changed Menu and Game Over Instructions Into Buttons
+* BBVR19 Added Adjustable Level Timer
