@@ -7,9 +7,7 @@ public class LevelManager : MonoBehaviour {
 
     // Public variables
     public float maxTime = 60.0f;
-
-    // Private variables
-    private float levelTimer = 0.0f;
+    public float levelTimer = 0.0f;
 
 	// Use this for initialization
 	void Start () {

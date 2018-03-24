@@ -41,3 +41,4 @@ Email. info@imagitechstudios.com
 * BBVR17 Added UI Game Titles And Instructions To Menu And Game Over Sceens
 * BBVR18 Changed Menu and Game Over Instructions Into Buttons
 * BBVR19 Added Adjustable Level Timer
+* BBVR20 Added Score And Timer UI And Linked To Game Score And Timer
