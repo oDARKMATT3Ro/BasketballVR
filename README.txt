@@ -44,3 +44,4 @@ Email. info@imagitechstudios.com
 * BBVR20 Added Score And Timer UI And Linked To Game Score And Timer
 * BBVR21 Added Persistent Score UI On Game Over Screen
 * BBVR22 Corrected Null Instance Bug On Persistent Score
+* BBVR23 Setup VR Settings And Framework
