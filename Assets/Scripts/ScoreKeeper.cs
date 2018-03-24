@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour {
 
+    static ScoreKeeper instance = null;
+
     public int score = 0;
 
-	// Use this for initialization
-	void Start () {
+    void Awake() {
+
+        Debug.Log("Score keeper " + GetInstanceID() + " is awake.");
+
+        if (instance != null) {
+
+            Destroy(gameObject);
+            Debug.Log("Duplicate score keeper detected. Destroying second instance.");
+        } else {
+            instance = this;
+            GameObject.DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    // Use this for initialization
+    void Start () {
 
     }
 	
