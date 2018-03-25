@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour {
 
     public void ResetScene() {
 
-        SceneManager.LoadScene("00_Menu");
+        SceneManager.LoadScene("01_Menu");
 
     }
 

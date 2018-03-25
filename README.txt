@@ -1,7 +1,7 @@
 # BasketballVR
 BasketballVR is a virtual reality basketball game made in Unity 2017.3.1f1.
 
-Created and Copyright by Geoff Goeres-Hill and ImagiTech Studios, LLC 2018. 
+Created and Copyright © Geoff Goeres-Hill and ImagiTech Studios, LLC 2018.
 For further information on Geoff Goeres-Hill and ImagiTech Studios, see [here](https://www.imagitechstudios.com/) .
 
 Enjoy!
@@ -51,3 +51,4 @@ Email. info@imagitechstudios.com
 * BBVR27 Used Triggers To Make The Goal Score Points
 * BBVR28 Imported Audio Assets, Added Menu Music, Added Shot Clock Buzzer
 * BBVR29 Major Update: SFX, New Basketball Court, Tuning & Balancing, And More
+* BBVR30 Misc. Updates, Tuning & Balancing, Test Build For Windows x86_x64
