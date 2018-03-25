@@ -13,7 +13,7 @@ public class SecondaryTrigger : MonoBehaviour {
     void OnTriggerEnter(Collider otherCollider) {
         if (otherCollider == expectedCollider) {
             ScoreKeeper scoreKeeper = FindObjectOfType<ScoreKeeper>();
-            GoalValue goalValue = FindObjectOfType<GoalValue>();
+            GoalValue goalValue = GetComponent<GoalValue>();
             scoreKeeper.IncrementScore(goalValue.goalValue);
         }
     }

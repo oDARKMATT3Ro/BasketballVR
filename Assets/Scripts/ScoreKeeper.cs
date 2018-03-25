@@ -35,6 +35,8 @@ public class ScoreKeeper : MonoBehaviour {
     public void IncrementScore(int amount) {
 
         score += amount;
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
         Debug.Log("Your scored a goal. Your current score is: " + score + ".");
 
     }

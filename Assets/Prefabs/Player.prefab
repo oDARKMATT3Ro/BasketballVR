@@ -52,8 +52,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1897831513913660}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 3.25, z: -9.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4986403877165650}
@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1148800903174648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0544641, z: -0.08386707}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539870903396842}
@@ -127,9 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2904ed46cec662a428a0814963ef8b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basketballPrefab: {fileID: 1218389255491234, guid: 0159d9af2c5ed404f8640b40916a7ef5,
-    type: 2}
-  ballSpeed: 20
+  basketballPrefab: {fileID: 181448, guid: f436c8aa99cb73d4c9b6d7f7310cc44e, type: 2}
+  ballSpeed: 15
+  throwAngle: {x: -30, y: 0, z: 0}
 --- !u!114 &114548346606900774
 MonoBehaviour:
   m_ObjectHideFlags: 1
