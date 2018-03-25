@@ -45,3 +45,4 @@ Email. info@imagitechstudios.com
 * BBVR21 Added Persistent Score UI On Game Over Screen
 * BBVR22 Corrected Null Instance Bug On Persistent Score
 * BBVR23 Setup VR Settings And Framework
+* BBVR24 Created Prefabs, Converted Game UI, Menu, And Game Over Scenes To VR World Space
