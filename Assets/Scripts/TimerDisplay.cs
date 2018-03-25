@@ -23,4 +23,10 @@ public class TimerDisplay : MonoBehaviour {
 
 	}
 
+    public void ResetTimer() {
+
+        levelManager.levelTimer = levelManager.maxTime;
+
+    }
+
 }
